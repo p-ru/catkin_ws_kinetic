@@ -1,0 +1,5 @@
+float32 value        # request field
+
+---
+bool   success       # response field
+string message       # free-form text
