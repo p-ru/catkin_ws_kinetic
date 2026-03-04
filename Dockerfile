@@ -11,7 +11,7 @@ RUN apt-get update && \
     apt-get clean \
     && rm -rf /var/lib/apt/lists/* 
 
-RUN echo "source /opt/ros/kinetic/setup.bash" >> /root/.bashrc
+# RUN echo "source /opt/ros/kinetic/setup.bash" >> /root/.bashrc
 
 
 
